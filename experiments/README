@@ -19,7 +19,7 @@ cd train1
 python gen_joblist_production.py
 sh submit_arrayjobs.sh
 
-6. Tar the folders in the outputs folder
+6. Tar the folders in the outputs folder and copy the tar documents to openvs/experiments/ada/results
 
 7. Go to scripts folder, change the 'curr_iter' to the current iteration number in 'run_all.sh' and run through the commands in this file. This will generate a folder containing new params files for the next iteration virtual screening. To be more specific, if curr_iter=1, the new params folder will be 'scratch/params/train2_params'
 
